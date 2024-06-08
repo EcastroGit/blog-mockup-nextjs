@@ -1,0 +1,36 @@
+#posts-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 10px;
+  width: 90%;
+  margin: auto;
+  padding: 5rem;
+}
+.post-card {
+  height: 280px;
+  width: 260px;
+  background-color: rgb(38, 38, 43);
+  border-radius: 10px;
+}
+.post-card:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 0px rgb(0, 255, 255);
+}
+.post-title {
+  height: 90px;
+  padding: 10px 10px 0px;
+  border-bottom: 1px solid gray;
+}
+.post-body {
+  padding: 10px 10px 0px;
+}
+
+@media screen and (max-width: 900px) {
+  #posts-container {
+    gap: 10px;
+    width: 100%;
+    margin: auto;
+    padding: 2rem;
+  }
+}

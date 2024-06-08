@@ -1,0 +1,19 @@
+.cta1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: fit-content;
+  padding: 5px 10px;
+  border-radius: 20px;
+  background-color: #19c4c4;
+  color: black;
+  transition: ease 700ms;
+}
+.cta1:hover {
+  cursor: pointer;
+  background-color: rgb(0, 255, 255);
+}
+.cta1 div {
+  height: fit-content;
+}

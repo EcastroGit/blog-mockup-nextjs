@@ -1,0 +1,27 @@
+#header {
+  display: flex;
+  flex-direction: row nowrap;
+  justify-content: space-between;
+  height: 70px;
+  width: 1200px;
+  margin: auto;
+  color: white;
+  background-color: #030618;
+}
+.header-container {
+  height: fit-content;
+  align-self: center;
+  padding: 0 4rem;
+}
+a {
+  margin: 10px;
+}
+a:hover {
+  cursor: pointer;
+  color: aqua;
+}
+@media screen and (max-width: 1200px) {
+  #header {
+    width: 100%;
+  }
+}

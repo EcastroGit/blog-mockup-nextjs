@@ -1,0 +1,35 @@
+#hero-banner {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  min-height: 65vh;
+  height: auto;
+  width: 100%;
+  padding: 5rem;
+  background-color: #030618;
+}
+.hb-container {
+  height: 100%;
+  width: 50%;
+  padding: 2rem 1rem;
+}
+#hb-cta {
+  display: flex;
+  flex-flow: column nowrap;
+}
+@media screen and (max-width: 900px) {
+  #hero-banner {
+    flex-flow: column nowrap;
+    padding: 1rem;
+  }
+  .hb-container {
+    width: 100%;
+  }
+  #hero-banner > :first-child {
+    order: 2;
+  }
+  #hero-banner > :last-child {
+    order: 1;
+  }
+}

@@ -1,0 +1,17 @@
+.cta2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: fit-content;
+  padding: 5px 10px;
+  border-radius: 20px;
+  border: 2px solid white;
+  color: white;
+  transition: ease 700ms;
+}
+.cta2:hover {
+  cursor: pointer;
+  border: 2px solid aqua;
+  color: aqua;
+}

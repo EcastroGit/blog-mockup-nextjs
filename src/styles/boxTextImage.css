@@ -1,0 +1,46 @@
+.bti-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+}
+.bti-text {
+  width: 55%;
+  padding: 1rem;
+}
+.bti-image {
+  width: 45%;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .bti-container {
+    flex-flow: column nowrap;
+  }
+  .bti-text {
+    width: 100%;
+  }
+  .bti-image {
+    width: 100%;
+  }
+  img {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .bti-container {
+    width: 90%;
+  }
+  img {
+    width: 65%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .bti-container {
+    width: 90%;
+  }
+  img {
+    width: 80%;
+  }
+}

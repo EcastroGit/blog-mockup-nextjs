@@ -1,8 +1,8 @@
 import "@/styles/heroBanner.css";
 import Image from "next/image";
 import bannerImage from "../assets/banner.jpg";
-import Cta1 from "@/components/cta1";
-import Cta2 from "@/components/cta2";
+import Cta1 from "@/components/Cta1";
+import Cta2 from "@/components/Cta2";
 
 function HeroBanner() {
   return (

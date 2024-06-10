@@ -4,7 +4,7 @@ function Posts() {
   return (
     <div>
       <br />
-      <h2 className="m-10 text-center text-4xl">Posts</h2>
+      <h2 className="text-4xl m-10 text-center font-bold">Posts</h2>
       <BlogPosts numPosts={6} />
     </div>
   );

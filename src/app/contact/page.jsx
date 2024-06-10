@@ -1,9 +1,13 @@
+import Form from "@/components/Form";
+
 function Contact() {
   return (
     <div>
       <br />
-      <h2 className="m-10 text-center text-4xl">Contact</h2>
-      <div></div>
+      <h2 className="text-4xl m-10 font-bold text-center ">Contact</h2>
+      <section>
+        <Form />
+      </section>
     </div>
   );
 }

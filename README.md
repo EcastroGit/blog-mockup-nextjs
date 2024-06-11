@@ -5,3 +5,5 @@ Mockup App project repository, built with Next.js and Tailwind CSS. This project
 ## Screenshot
 
 ![Blog MockUp Project](./public/screenshot.png)
+
+[Demo version](https://bloggingapp-mockup.netlify.app)

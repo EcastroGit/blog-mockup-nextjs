@@ -5,7 +5,9 @@ function Posts() {
     <div>
       <br />
       <h2 className="text-4xl m-10 text-center font-bold">Posts</h2>
-      <BlogPosts numPosts={6} />
+      <section>
+        <BlogPosts numPosts={6} />
+      </section>
     </div>
   );
 }

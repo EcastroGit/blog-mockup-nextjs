@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Cta1 from "./Cta1";
+import Cta1 from "@/components/Cta1";
 import "@/styles/boxTextImage.css";
 
 function BoxTextImage({ titleText, bodyText, imgSrc, alt }) {

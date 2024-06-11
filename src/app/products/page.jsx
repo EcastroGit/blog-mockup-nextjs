@@ -4,7 +4,9 @@ function Page() {
   return (
     <div>
       <br />
-      <h1 className="text-4xl  font-bold text-center">Products & Frebbies</h1>
+      <h1 className="text-4xl m-10 font-bold text-center">
+        Products & Frebbies
+      </h1>
       <section>
         <ProductsWidget />
       </section>

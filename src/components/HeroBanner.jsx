@@ -1,8 +1,8 @@
 import "@/styles/heroBanner.css";
 import Image from "next/image";
 import bannerImage from "../assets/banner.jpg";
-import Cta1 from "@/components/Cta1";
-import Cta2 from "@/components/Cta2";
+import CtaA from "@/components/CtaA.jsx";
+import CtaB from "@/components/CtaB.jsx";
 
 function HeroBanner() {
   return (
@@ -22,8 +22,8 @@ function HeroBanner() {
           </p>
         </div>
         <div className="flex felx-row mt-5 mb-10">
-          <Cta1 ctaText="Check Posts" ctaLink="/posts" />
-          <Cta2 ctaText="Contact Us" ctaLink="/contact" />
+          <CtaA ctaText="Check Posts" ctaLink="/posts" />
+          <CtaB ctaText="Contact Us" ctaLink="/contact" />
         </div>
         <div></div>
       </div>

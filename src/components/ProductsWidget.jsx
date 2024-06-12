@@ -1,5 +1,6 @@
 import { products } from "@/data/productsFakeData";
 import Image from "next/image";
+import CtaB from "./CtaB";
 import "@/styles/productsWidget.css";
 
 function ProductsWidget() {
@@ -14,6 +15,7 @@ function ProductsWidget() {
             <div className="text-container">
               <h3 className="text-center font-bold mt-2 mb-2">{i.product}</h3>
               <p>{i.description}</p>
+              <CtaB ctaText="Order Now!" ctaLink="#" />
             </div>
           </div>
         );

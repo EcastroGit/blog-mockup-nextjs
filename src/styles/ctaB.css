@@ -1,4 +1,4 @@
-.cta2 {
+.cta-b {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,7 +10,7 @@
   color: white;
   transition: ease 700ms;
 }
-.cta2:hover {
+.cta-b:hover {
   cursor: pointer;
   border: 2px solid aqua;
   color: aqua;

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Cta1 from "@/components/Cta1";
+import CtaA from "@/components/CtaA.jsx"
 import "@/styles/boxTextImage.css";
 
 function BoxTextImage({ titleText, bodyText, imgSrc, alt }) {
@@ -11,7 +11,7 @@ function BoxTextImage({ titleText, bodyText, imgSrc, alt }) {
       <div className="bti-text">
         <h2 className="font-bold text-3xl pb-3">{titleText}</h2>
         <p>{bodyText}</p>
-        <Cta1 ctaText="More info" ctaLink="/products" />
+        <CtaA ctaText="More info" ctaLink="/products" />
       </div>
     </div>
   );

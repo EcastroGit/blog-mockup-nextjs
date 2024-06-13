@@ -5,7 +5,7 @@ import "@/styles/blogPosts.css";
 function BlogPosts({ numPosts }) {
   const [posts, setPosts] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:3000/api/posts")
+    fetch(process.env.NEXT_PUBLIC_API_URL)
       .then((data) => data.json())
       .then((res) => setPosts(res))
       .catch((err) => console.log(err));

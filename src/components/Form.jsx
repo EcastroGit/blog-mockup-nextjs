@@ -9,6 +9,7 @@ function Form() {
     website: "",
     message: "",
   });
+  const [message, setMessage] = useState(false);
 
   function handleChange(e) {
     const { name, value } = e.target;
@@ -28,12 +29,17 @@ function Form() {
         },
         body: JSON.stringify(formData),
       });
-
       if (!response.ok) {
         throw new Error("Network response was not ok");
       }
-
       const result = await response.json();
+      setFormData({
+        name: "",
+        email: "",
+        website: "",
+        message: "",
+      });
+      setMessage(true);
       console.log("Success:", result);
     } catch (error) {
       console.error("Error:", error);
@@ -42,6 +48,12 @@ function Form() {
 
   return (
     <div>
+      <p
+        className="text-center m-3"
+        style={{ display: `${message ? "block" : "none"}`, color: "aqua" }}
+      >
+        Thanks for your message!!
+      </p>
       <form onSubmit={handleSubmit}>
         <label htmlFor="name">Name:</label>
         <input
